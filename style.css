@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;300;400;500;700;800;900&family=Kumbh+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Poppins:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;300;400;500;700;800;900&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Big Shoulders Display", "Outfit", serif;
+  background: #f2f2f2;
+  width: 23.5rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 156%;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #444444;
+}
+h1 {
+  font-family: "Big Shoulders Display";
+  font-size: 3.7rem;
+  font-weight: 900;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-style: normal;
+}
+header {
+  width: 23rem;
+  height: 40rem;
+}
+img,
+picture {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header-inner {
+  padding-left: 1rem;
+}
+.header-logo {
+  width: 21rem;
+  color: #151515;
+  margin-top: 2rem;
+}
+header p {
+  width: 22rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+.buttons {
+  background: linear-gradient(
+    to right,
+
+    rgba(21, 21, 21, 1) 0%,
+    rgba(21, 21, 21, 1) 80% rgba(213, 150, 108, 1) 80%,
+    rgba(213, 150, 108, 1) 100%
+  );
+}
+.btn {
+  color: #ffffff;
+  width: 200px;
+  /* background-color: black; */
+  background: linear-gradient(
+    to right,
+
+    rgba(21, 21, 21, 1) 0%,
+    rgba(21, 21, 21, 1) 80%,
+    rgba(213, 150, 108, 1) 80%,
+    rgba(213, 150, 108, 1) 100%
+  );
+}
+.buttons a {
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 17.1rem;
+  font-size: 20px;
+  line-height: 1.5rem;
+  letter-spacing: 3.6px;
+  margin-top: 2rem;
+  padding: 1.5rem 2.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/*Main section*/
+
+main {
+  margin-top: 7.5rem;
+  padding-left: 1rem;
+}
+main h1 {
+  font-size: 3.1rem;
+  line-height: 90%;
+  text-align: left;
+}
+.main-header-inner {
+  width: 21rem;
+  height: 14rem;
+}
+
+.main-header-inner h1 {
+  margin-top: 1.5rem;
+}
+.main-header-inner p {
+  margin-top: 1.5rem;
+}
+.midlle-main-img {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.main-bottom {
+  margin-bottom: 7.5rem;
+  width: 21.5rem;
+  margin-top: 1rem;
+  height: 18.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: #151515;
+}
+.main-bottom-inner {
+  width: 18.6rem;
+  padding: 3rem 1rem;
+}
+.main-bottom-inner h1 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+.main-bottom-inner p {
+  color: #ffffff;
+  width: 18.6rem;
+}
+
+/*Footer*/
+
+footer {
+  background: rgba(21, 21, 21, 1);
+  min-width: 100vw;
+  height: 21rem;
+  padding: 3rem 0 3rem 2rem;
+}
+.footer-text {
+  height: 6.5rem;
+  width: 19.4rem;
+  margin-bottom: 2rem;
+}
+.footer-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-top: 2.3rem;
+  margin-bottom: 2.3rem;
+}
+.modern-art-logo {
+  width: 6.8rem;
+  height: 2.5rem;
+}
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+    margin: 0;
+  }
+
+  img,
+  picture {
+    max-width: 100%;
+    height: auto;
+  }
+
+  header {
+    position: relative;
+    margin-bottom: 10rem;
+  }
+
+  .header-img {
+    width: 27.3rem;
+  }
+  .header-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+  }
+  .header-inner h1 {
+    line-height: 3.5rem;
+    margin-top: 3.6rem;
+  }
+  .header-inner p {
+    width: 21.2rem;
+    margin-right: 2.5rem;
+    margin-top: 3.5rem;
+    font-family: "Outfit", sans-serif;
+  }
+  .buttons {
+    margin-top: 3.5rem;
+    border: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .main-header h1,
+  p {
+    width: 14rem;
+  }
+
+  .top-part {
+    display: flex;
+    width: 100vw;
+  }
+  .top-main-img {
+    order: 1;
+  }
+
+  .main-header-inner {
+    width: 18.1rem;
+  }
+  .main-header-inner h1 {
+    width: 13.1rem;
+  }
+  .main-header-inner p {
+    font-family: "Outfit";
+    font-size: 18px;
+  }
+
+  .middle {
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 0.7rem;
+    width: 100vw;
+  }
+  .midlle-main-img {
+    margin-top: -0px;
+  }
+
+  .bottom-img {
+    width: 100%;
+    margin-right: 0;
+    padding: 0;
+  }
+  .main-bottom {
+    margin-top: 0.7rem;
+    width: 17.5rem;
+    height: 24.7rem;
+  }
+  .main-bottom-inner {
+    width: 15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .main-bottom-inner {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 3.1rem;
+    font-weight: 900;
+    line-height: 2.8rem;
+  }
+  .main-bottom-inner p {
+    width: 13.9rem;
+    font-family: "Outfit";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  /*----> FOOTER <------*/
+
+  footer {
+    width: 100vw;
+    height: 13.5rem;
+    padding: 0;
+  }
+  .modern-art-logo {
+    width: 7rem;
+    margin-right: 2rem;
+  }
+  .art-logo {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-inner {
+    width: 100vw;
+    padding: 0;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-text {
+    margin-left: 4rem;
+  }
+  .footer-text p {
+    width: 17.5rem;
+    margin-top: 0;
+  }
+  .social-icons {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    overflow-x: hidden;
+    width: 1275px;
+  }
+  header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #151515;
+    width: 62rem;
+    height: 100%;
+    position: relative;
+
+    margin-bottom: 12rem;
+  }
+  .header-img {
+    width: 540px;
+    height: 864px;
+    position: relative;
+  }
+  .hero-image {
+    width: 100%;
+  }
+  .header-inner {
+    display: flex;
+    position: absolute;
+    top: 38%;
+    left: -46%;
+  }
+  .right {
+    margin-left: 16.5rem;
+  }
+  .item2 p {
+    width: 21.8;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    color: #444444;
+  }
+
+  .grid1 {
+    width: 32.1rem;
+    height: 17.2rem;
+  }
+  .header-inner h1 {
+    line-height: 100%;
+    width: 100%;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+
+    background-image: linear-gradient(
+      to right,
+      #fff 0%,
+      #fff 58%,
+      #151515 58%,
+      #151515 100%
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+
+    background: linear-gradient(
+      to right,
+      rgba(213, 150, 108, 1) 0%,
+      rgba(213, 150, 108, 1) 80%,
+      rgba(21, 21, 21, 1) 80%,
+      rgba(21, 21, 21, 1) 100%
+    );
+  }
+
+  main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 10rem;
+  }
+
+  .container-1 {
+    display: flex;
+  }
+  .item-1 {
+    width: 29rem;
+  }
+  .item-1 p,
+  h1 {
+    width: 350px;
+  }
+  .container-2 {
+    display: flex;
+    gap: 1.2rem;
+  }
+  .grid-1 {
+    width: 635px;
+  }
+  .grid-2,
+  .grid-3 {
+    width: 445px;
+  }
+  footer {
+    width: 100vw;
+  }
+  .modern-art-logo {
+    width: 10rem;
+  }
+  .art-logo {
+    width: 100%;
+  }
+  .footer-inner {
+    width: 100vw;
+    padding: 0;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-text {
+    margin-right: 18rem;
+    margin-left: 8rem;
+  }
+  .footer-text p {
+    width: 26.5rem;
+  }
+  .social-icons {
+    height: 6px;
+  }
+  .facebook:hover,
+  .instagram:hover,
+  .twitter:hover {
+    cursor: pointer;
+    filter: invert(0.5);
+  }
+}
