@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution Site [GitHub](https://github.com/mikava7/art-galery-website)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site URL](https://mikava7.github.io/art-galery-website/)
 
 ## My process
 
