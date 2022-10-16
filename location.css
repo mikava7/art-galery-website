@@ -27,6 +27,7 @@ picture {
   display: block;
 }
 .button {
+  cursor:pointer;
   position: absolute;
   top: 0;
   left: 0;
@@ -236,6 +237,6 @@ footer {
   .facebook:hover,
   .instagram:hover,
   .twitter:hover {
-    filter: invert(1);
+    filter: invert(0.5);
   }
 }
