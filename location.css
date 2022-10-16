@@ -63,6 +63,7 @@ picture {
   text-decoration: none;
 }
 
+
 /*----------> M A I N <-------------*/
 main {
   width: 100vw;
@@ -219,6 +220,20 @@ footer {
   main {
     height: 35rem;
   }
+  .buttons a {
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 17.1rem;
+  font-size: 20px;
+  line-height: 1.5rem;
+  letter-spacing: 3.6px;
+  margin-top: 2rem;
+  padding: 1.5rem 2.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
   .item1 {
     width: 21.8rem;
     height: 8.75rem;
