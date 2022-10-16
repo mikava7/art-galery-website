@@ -34,6 +34,7 @@ picture {
 }
 
 .btn {
+    cursor:pointer;
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -53,6 +54,7 @@ picture {
   );
 }
 .btn2 {
+    cursor:pointer;
   position: absolute;
   width: 0.5rem;
   height: 1.5rempx;
@@ -182,6 +184,9 @@ footer {
   }
 }
 @media only screen and (min-width: 992px) {
+  
+  
+  
   .map-img-container {
     position: relative;
     z-index: -1;
@@ -196,6 +201,20 @@ footer {
     top: 0;
     left: 10rem;
   }
+  
+  .btn:hover {
+    cursor: pointer;
+
+    background: linear-gradient(
+      to right,
+   
+      rgba(21, 21, 21, 1) 0%,
+      rgba(21, 21, 21, 1) 80%,
+      rgba(213, 150, 108, 1) 80%,
+      rgba(213, 150, 108, 1) 100%
+    );
+  }
+  
   main {
     height: 35rem;
   }
