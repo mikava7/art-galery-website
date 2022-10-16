@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-<img src='preview.jpg'
+<img src='preview.jpg'>
 
 
 ### Links
 
-- Solution Site [GitHub(https://github.com/mikava7/art-galery-website)
+- Solution Site [GitHub](https://github.com/mikava7/art-galery-website)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
